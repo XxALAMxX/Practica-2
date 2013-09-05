@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+<link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body BGCOLOR=#D7DF01>
+         <div>
+             <form action="datos.html" method="POST">
+<h2>AGREGAR EMPLEADO</h2>
+		<div id="contacto">		
+		<fieldset>
+		 <legend>Laboral</legend>
+                 <label for="txtNombre">Codigo<a style="color: RED;">*<a></label><br/>
+                 <input type="text" size="20" maxlength="255" id="txtNombre" 			name="nombre" />
+                 <br/>
+                 <br/>
+                 <label for="txtCorreo">Fecha de ingreso</label><br/>
+                 <input type="text" size="10" maxlength="255" id="txtCorreo" 			name="correo" />
+                 <br/>
+                 <br/>
+		<label>Seguridad Social<a style="color: RED;">*</a></label><br/>
+		<select for="cbSeguridadSocial" id="cbSeguridadSocial">
+ 		<option value="1">IMSS</option>
+ 		<option value="2">Cruz Verde</option>
+  		<option value="3">Cruz Roja</option>
+  		<option value="4">Seguro Trabajo</option>
+		</select>
+		<br/>
+		<br/>
+                 <label for="txtMensaje">N&uacute;mero</label><br/>
+                 <input type="text" size="40" maxlength="255" id="txtAsunto" 			name="asunto" />
+                 
+		<br/>
+		</fieldset>
+                 <br/>
+
+<fieldset>
+		 <legend>Personal</legend>
+                 <label for="txtNombre">Nombre<a style="color: RED;">*<a></label><br/>
+                 <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
+                 <br/>
+                 <br/>
+                 <label for="txtCorreo">Apellido Paterno<a style="color: RED;">*<a></label><br/>
+                 <input type="text" size="30" maxlength="255" id="txtCorreo" name="correo" />
+                 <br/>
+                 <br/>
+                 <label for="txtAsunto">Apellido Materno<a style="color: RED;">*<a></label><br/>
+                 <input type="text" size="30" maxlength="255" id="txtAsunto" name="asunto" />
+                 <br/>
+                 <br/>
+                 <label for="FFoto">Foto</label><br/>
+                 <input type=file size=60 id="FFoto"><br><br>
+		 <input type=submit value="subir"><br>
+                 <br/>
+		<label for="txtSexo">Sexo</label><br/>
+		<input type="radio" name="sexo" checked value="Hombre"> Hombre 
+		<input type="radio" name="sexo" value="Hombre"> Mujer
+		<br/>
+		<br/>
+		<label for="txtSexo">Estado Civil</label><br/>
+		<select for="cbEdo" id="cbEdo">
+ 		<option value="1">Soltero(a)</option>
+ 		<option value="2">Cazado(a)</option>
+  		<option value="3">Viudo(a)</option>
+  		<option value="4">Union libre</option>
+		</select>
+		</fieldset>
+                 <br/>
+	
+<fieldset>
+		 <legend>Nacimiento</legend>
+                 <label for="txtNombre">Fecha</label><br/>
+                 <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
+                 <br/>
+                 <br/>
+                 <label for="txtCorreo">Pa&iacute;s</label><br/>
+                 <select for="cbPais" id="cbPais">
+ 	 	 <option value="1">M&eacute;xico</option>
+ 		 <option value="2">Estados Unidos</option>
+  		 <option value="3">Espa&nacute;a</option>
+  		 <option value="4">Francia</option>
+		 </select>
+		 </fieldset>
+                 <br/>
+
+
+		<fieldset>
+		 <legend>Contacto</legend>
+                 <label for="txtTitulo">Titulo</label><br/>
+                 <input type="text" size="10" maxlength="255" id="txtNombre" name="nombre" />
+                 <br/>
+                 <br/>
+                 <label for="txtCURP">CURP</label><br/>
+                 <input type="text" size="20" maxlength="255" id="txtCorreo" name="correo" />
+                 <br/>
+                 <br/>
+                 <label for="txtRFC">RFC</label><br/>
+                 <input type="text" size="20" maxlength="255" id="txtAsunto" name="asunto" />
+                 <br/>
+                 <br/>
+		 <label for="txtTelefono">Tel&eacute;fono</label><br/>
+                 <input type="text" size="30" maxlength="255" id="txtCorreo" name="correo" />
+                 <br/>
+                 <br/>
+                 <label for="txtCelular">Celular</label><br/>
+                 <input type="text" size="30" maxlength="255" id="txtAsunto" name="asunto" />
+                 <br/>
+                 <br/>
+		 <label for="txtDomicilio">Domicilio</label><br/>
+                 <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                 <br/>
+                 <br/>
+                 <label for="txtColonia">Colonia</label><br/>
+                 <input type="text" size="40" maxlength="255" id="txtAsunto" name="asunto" />
+                 <br/>
+                 <br/>
+                 <label for="txtCodigoPostal">C&oacute;digo Postal</label><br/>
+                 <input type="text" size="10" maxlength="5" 				id="txtCodigoPostal" name="correo" />
+                 <br/>
+                 <br/>
+                 <label for="txtPais">Pa&iacute;s</label><br/>
+                 <select for="cbPais" id="cbPais">
+ 	 	 <option value="1">M&eacute;xico</option>
+ 		 <option value="2">Estados Unidos</option>
+  		 <option value="3">Espa&nacute;a</option>
+  		 <option value="4">Francia</option>
+		 </select>
+                 <br/>
+                 <br/>
+		 <br/>
+		 <br/>
+		 <label for="txtRadio">Radio</label><br/>
+                 <input type="text" size="20" maxlength="255" id="txtRadio" name="nombre" />
+                 <br/>
+                 <br/>
+                 <label for="txtCorreoE">Correo Electr&oacute;nico</label><br/>
+                 <input type="text" size="40" maxlength="255" id="txtCorreoE" name="correo" />
+                 <br/>
+                 <br/>
+                 <label for="txtObs">Observaciones</label><br/>
+                 <input type="text" size="40" maxlength="255" id="txtObs" name="asunto" />
+                 <br/>
+                 <br/>
+		</fieldset>
+		</div>
+                 <br/>
+<div id="Envio">
+		 <input type="submit" name="cancel" value="Cancelar" />
+                 <input type="submit" name="enviar" value="Guardar" />
+</div>             
+</form>
+         </div>
+         <div>
+             <a href="maquetado/index.html">Maquetado</a>
+         </div>
+    </body>
+</html>
